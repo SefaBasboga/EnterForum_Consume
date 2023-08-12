@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\admin\.github\CODE_OF_CONDUCT.md" />
+    <None Include="wwwroot\admin\.github\CONTRIBUTING.md" />
+    <None Include="wwwroot\admin\.github\FUNDING.yml" />
+    <None Include="wwwroot\admin\.github\ISSUE_TEMPLATE\bug_report.md" />
+    <None Include="wwwroot\admin\.github\ISSUE_TEMPLATE\config.yml" />
+    <None Include="wwwroot\admin\.github\ISSUE_TEMPLATE\feature_request.md" />
+    <None Include="wwwroot\admin\.github\PULL_REQUEST_TEMPLATE.md" />
+  </ItemGroup>
+
+</Project>
